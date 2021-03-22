@@ -1,0 +1,35 @@
+>>>>CONFIGURANDO AMBIENTE<<<<<<<,
+
+--------------Criando Arquivo ------
+yarn init -y    -->dentro da pasta desejada para o package.json
+yarn add react  -->node_modules
+yarn add react-dom
+
+-- criar pasta "src" e "public" 
+
+yarn add @babel/core @babel/cli @ babel/preset-env -D
+e criar um arquivo "babel.config.js"
+
+yarn babel src/index.js -out-file dist/bundle.js
+ou
+yarn babel src/index.jsx -out-file dist/bundle.js
+
+yarn add @babel/preset-react -D
+
+yarn add webpack webpack-cli -D   ==> criar "webpack.config.js"
+
+yarn add babel-loader -D
+
+yarn webpack
+
+yarn webpack serve
+
+yarn add html-webpack-plugin -D
+
+yarn add webpack-dev-server -D
+
+yarn add cross-env -D
+
+yarn add style-loader css-loader -D
+
+yarn add node-sass sass-loader -D  --> ".scss"
