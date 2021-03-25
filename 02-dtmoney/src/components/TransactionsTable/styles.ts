@@ -23,14 +23,14 @@ export const Container = styled.div`
             border-radius: 0.25rem;
         
 
-            &:first-child{
+            &.first-child{
                 color:var(--text-title);
             }
 
-            &:deposit{
+            &.deposit{
                 color:var(--green);
             }
-            &:withdraw{
+            &.withdraw{
                 color:var(--red);
             }
         }
