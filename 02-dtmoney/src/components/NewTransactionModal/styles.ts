@@ -29,7 +29,7 @@ export const Container = styled.form`
         }
     }
 
-    buttom[type="submit"]{
+    button[type="submit"]{
         width:100%;
         padding: 0 1.5rem;
         height: 4rem;
