@@ -7,7 +7,9 @@ import { stripe } from '../services/stripe';
 
 import styles from './home.module.scss';
 
-
+// Client-side
+// Server-side 
+// Static Side Generation : gera Html iguais para todos usuários 
 interface HomeProps {
   product:{
     priceId:string;
