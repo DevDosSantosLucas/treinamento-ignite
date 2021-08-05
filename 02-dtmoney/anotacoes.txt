@@ -1,0 +1,50 @@
+#criar um projeto com typescript 
+yarn create react-app nome_do_projeto --template typescript
+
+
+No "index.html"  apagar tudo exceto..:
+    <!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel= "shortcut icon" href='favicon.png' type = 'image/png'>
+    <title>dtmoney</title>
+  </head>
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"></div>
+  </body>
+</html>
+.........................................:
+=> Limpar a pasta public deixando somente o "index.hmtl"
+no SRC apagar: App.css , App.test.tsx , index.css , logo.svg , reportWebVitals.ts , setupTests.ts
+
+=> Em "package.json" as dependencies com '@' e o 'typescript' colocar em devDependencies.
+
+------------------------------------------
+yarn add styled-components
+
+no CSS a var:
+-webkit-font-smoothing: antialiased;
+Deixa as fonts mais nitidas.
+
+
+html{
+    @media(max-width:1080px){ //Em medidas REM ( 1rem  == 16px)
+        font-size: 93.75%; //isso é 16*0,9375 = 15px 
+    }
+    @media(max-width:720px){
+        font-size: 87.5%; //isso é 16*0,875 = 14px
+    }
+}
+button{
+cursor:ponter;
+}
+
+
+-----------------
+yarn add miragejs
+yarn add axios
+yarn add react-modal

@@ -1,0 +1,52 @@
+FaunaDB é feito para aplicação serveless
+pode usar o DynamoDB também com o mesmo proposito
+
+Prismic CMS (painel de admin para cadastrar dados)
+
+Stripe => API de pagamentos 
+
+yarn create next-app nome_do_projeto
+yarn add typescript @types/react @types/node -D
+
+yarn add sass
+
+_app => onde todas paginas são sempre executadas
+_document => onde executa sómente uma unica vez( tem q ser em forma de classe) vai corpo HTML
+
+getServerSideProps: executada no servidor NExt
+
+getStaticProps: executa o HTML sem precisar ser revalidado(é bom pra quando são muitos usuários acessando e nao tem alteração no site)
+
+yarn add next-auth
+yarn ad @types/next-auth -D
+OAuth Apps => criar o projeto de authenticação no github
+
+NextAuth.js => para fazer authenticação
+
+yarn add Faunadb
+
+STRIPE:
+yay -S stripe-cli-bin
+ 
+
+--JAMStack
+ 
+ => JavaScript
+ => API
+ => Markup
+ 
+ CMS( Content Management System)
+ ex:
+ -Wordpress
+ -Drupal
+ -Joomla
+ -Magento
+ 
+ Headless CMS( painel de admin + API HTTP, GraphQL, SDK(
+ --gratuito
+ -Strapi (FOcado em qualquer conteudo)
+ -Ghost (Blog)
+ -Keystone
+ 
+ --Pagos
+ -Prismic CMS
