@@ -50,3 +50,9 @@ yay -S stripe-cli-bin
  
  --Pagos
  -Prismic CMS
+
+
+==> obs: toda pagina que é gerada de forma estatica , não é protegida 
+
+ dangerouslySetInnerHTML:
+ perigoso de usar , o prismic protege
